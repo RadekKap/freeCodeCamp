@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.8.0/marked.js" integrity="sha256-Fjb/K+nFJsnpAkT2CsX+PN5zIhkxcLEXi5j4vbEvMWk=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script type='text/javascript' src='script.js'></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type='text/javascript' src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <title>Markdown Previewer</title>
+    <meta charset="utf-8">
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
+    <link href="https://fonts.googleapis.com/css?family=Sriracha&display=swap" rel="stylesheet"> 
+   <link rel="stylesheet" href="style.css"> 
+  
+  
+  </head>
+  <body>
+    <main>
+      <div id="all">
+        <h3>Markdown Previewer</h3>
+        <div id="head"> 
+        <h4 id="inp">Input</h4>
+        <h4 id="out">Output</h4>
+        </div>
+        <div id="box">  
+        <textarea oninput="printValue()" id="editor"></textarea>
+        <div id="preview"></div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

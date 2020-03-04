@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  transition: background-color  ease-in 1s;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+p{
+  transition: color  ease-in 1s;
+  color: #000;
+}
+#text{
+  font-family: 'Lemonada', cursive;
+  font-size:20px;
+  font-weight:bold;
+}
+#author{
+  font-family: 'Odibee Sans', cursive;
+  text-align:right;
+}
+#quote-box{
+  margin: 20px;
+  height:auto;
+  background-color: white;
+  width: 600px;
+  border-radius: 20px;
+  padding: 40px;
+}
+#butt i{
+ font-size:2em;
+ transition: color  ease-in 1s;
+ color: #000;
+}
+#new-quote{
+  transition: background-color  ease-in 1s;
+  background-color: #000;
+  margin-right: 30px;
+  cursor: pointer;
+    border-radius: 5px;
+    padding: 10px 25px;
+    display: inline-block;
+    text-align: center;
+    color: white;
+}
+
+#new-quote:hover{
+  opacity:0.7;
+}
+#butt i:hover{
+ opacity:0.7;
+}

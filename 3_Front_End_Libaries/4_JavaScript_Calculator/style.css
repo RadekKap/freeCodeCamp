@@ -1,0 +1,64 @@
+body{
+  background-color: #77DD77;
+  display: flex;
+  justify-content: center;
+}
+
+h1{
+  font-family:'Dancing Script', cursive;
+  margin:10px;
+  font-size:80px;
+}
+#calc{
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ padding: 0px 50px;
+ margin: 30px 50px;
+ background-color: #e8e7e5;
+ border-radius: 90px/60px;
+ -webkit-box-shadow: 2px -3px 88px 23px rgba(31,93,209,0.72);
+-moz-box-shadow: 2px -3px 88px 23px rgba(31,93,209,0.72);
+box-shadow: 2px -3px 88px 23px rgba(31,93,209,0.72);
+}
+#dis{
+  display:flex;
+  justify-content: space-between;
+  margin: 15px 0px;
+}
+
+ h4{
+  margin:10px -30px;
+  font-family:'Dancing Script', cursive;
+  font-size:40px;
+  }
+p{
+  margin: 10px 0px;
+  text-align: left;
+  font-size:30px;
+  padding-left:50px;
+ 
+}
+
+.btn:focus { 
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;  }
+
+.btnwdth{
+  width:100px !important;
+  height: 60px !important;
+  border-radius: 0px !important;
+  font-size: 30px !important;
+}
+.opwdth{
+  width: 50px;
+  border-radius: 0px !important;
+  font-size: 20px !important;
+}
+
+@media (max-width: 500px) {
+  #calc{
+     width:100%;
+  }
+}
