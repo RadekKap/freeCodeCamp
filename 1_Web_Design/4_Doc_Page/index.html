@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <title> Technical Documentation Page</title>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+  </head>
+  
+   <body>
+      <main id="main-doc">
+        <nav id="navbar">
+          <header>
+             Coding language:
+          </header>
+          <a class="nav-link" href="#Java">Java</a>
+          <a class="nav-link" href="#C++">C++</a>
+          <a class="nav-link" href="#C#">C#</a>
+          <a class="nav-link" href="#Python">Python</a>
+          <a class="nav-link" href="#SQL">SQL</a>
+          
+        </nav>
+        
+        <section id="Java" class="main-section">
+            <header>
+              Java
+            </header>
+          <p> dolor sit amet, consectetur adipiscing elit. Praesent id leo et ex lobortis eleifend at non arcu. Ut tincidunt dui eu ipsum placerat euismod. Sed dapibus accumsan magna, sed malesuada erat mollis non. Sed ultricies ipsum lectus, id consectetur justo consectetur vel. Nullam porttitor bibendum nisl, nec consequat metus fringilla eget. Sed sit amet erat cursus, dignissim lacus et, ultrices lectus. Aenean eu eros vel nibh tempor viverra. Sed ac sodales ante, vel volutpat sem. </p>
+          
+          <p> dolor sit amet, consectetur adipiscing elit. Praesent id leo et ex lobortis eleifend at non arcu. Ut tincidunt dui eu ipsum placerat euismod. Sed dapibus accumsan magna, sed malesuada erat mollis non. Sed ultricies ipsum lectus, id consectetur justo consectetur vel. Nullam porttitor bibendum nisl, nec consequat metus fringilla eget. Sed sit amet erat cursus, dignissim lacus et, ultrices lectus. Aenean eu eros vel nibh tempor viverra. Sed ac sodales ante, vel volutpat sem. </p>
+          <em>Sample Java code:</em>
+          <pre><code>import java.util.Scanner; 
+    public class HelloWorld {
+        public static void main(String[] args) {
+                  // Creates a reader instance which takes
+                  // input from standard input - keyboard
+            Scanner reader = new Scanner(System.in);
+            System.out.print("Enter a number: ");
+            // nextInt() reads the next integer from the keyboard
+            int number = reader.nextInt();
+            // println() prints the following line to the output screen
+            System.out.println("You entered: " + number);
+        }
+    }</code></pre><br>
+          <em>List Java:</em>
+          <ol>
+            <li>eget pretium arcu. </li>
+            <li>eget pretium arcu. </li>
+            <li>eget pretium arcu. </li>
+          </ol>
+        </section>
+        
+        <section id="C++" class="main-section">
+            <header>
+              C++
+            </header>
+          <p> Curabitur pellentesque sodales facilisis. Nam at quam fringilla, consequat tellus nec, accumsan leo. Vestibulum dignissim dui elementum facilisis molestie. Phasellus dictum dui rhoncus malesuada ultricies. Maecenas dapibus consequat ex, non finibus nisl mattis id. Pellentesque iaculis mi non justo venenatis, ac porta nisi tempus. Etiam at vulputate lorem. Quisque nunc libero, luctus vitae velit accumsan, faucibus convallis est. In eget odio dui. </p>
+          
+          <p> Curabitur pellentesque sodales facilisis. Nam at quam fringilla, consequat tellus nec, accumsan leo. Vestibulum dignissim dui elementum facilisis molestie. Phasellus dictum dui rhoncus malesuada ultricies. Maecenas dapibus consequat ex, non finibus nisl mattis id. Pellentesque iaculis mi non justo venenatis, ac porta nisi tempus. Etiam at vulputate lorem. Quisque nunc libero, luctus vitae velit accumsan, faucibus convallis est. In eget odio dui.  </p>
+          <em>Sample C++ code:</em>
+        <pre><code>    #include &lt;iostream&gt;
+    using namespace std;
+    int main()
+    {
+      int n, i;
+      bool isPrime = true;
+      cout &lt;&lt; "Enter a positive integer: ";
+      cin >> n;
+      for(i = 2; i &lt;= n / 2; ++i)
+      {
+          if(n % i == 0)
+          {
+              isPrime = false;
+              break;
+          }
+      }
+      if (isPrime)
+          cout &lt;&lt; "This is a prime number";
+      else
+          cout &lt;&lt; "This is not a prime number";
+      return 0;
+    }</code></pre><br>
+          <em>List C++:</em>
+          <ol>
+            <li>eget pretium arcu. </li>
+            <li>eget pretium arcu. </li>
+            <li>eget pretium arcu. </li>
+          </ol>
+        </section>
+        
+        <section id="C#" class="main-section">
+        
+            <header>
+              C#
+            </header>
+          <p> Praesent aliquet sed massa at sodales. Ut tempor tortor felis, in ultricies nibh lacinia vitae. In fermentum arcu a aliquet cursus. Donec quis scelerisque lorem. Pellentesque arcu quam, vehicula eu quam et, vestibulum congue nibh. Phasellus sit amet tincidunt ex. Proin sed fermentum libero, vitae maximus nisi. Morbi ullamcorper, tellus id maximus ullamcorper, metus nibh commodo felis, quis bibendum libero dolor ut ex. Etiam id nunc et erat ultrices euismod. Aenean semper, sapien eget interdum tincidunt, augue felis iaculis leo, eget interdum arcu ipsum id eros. Integer sollicitudin justo ut orci blandit mollis. Aliquam ullamcorper eros at odio interdum, quis efficitur mauris ornare. </p>
+          <p> Praesent aliquet sed massa at sodales. Ut tempor tortor felis, in ultricies nibh lacinia vitae. In fermentum arcu a aliquet cursus. Donec quis scelerisque lorem. Pellentesque arcu quam, vehicula eu quam et, vestibulum congue nibh. Phasellus sit amet tincidunt ex. Proin sed fermentum libero, vitae maximus nisi. Morbi ullamcorper, tellus id maximus ullamcorper, metus nibh commodo felis, quis bibendum libero dolor ut ex. Etiam id nunc et erat ultrices euismod. Aenean semper, sapien eget interdum tincidunt, augue felis iaculis leo, eget interdum arcu ipsum id eros. Integer sollicitudin justo ut orci blandit mollis. Aliquam ullamcorper eros at odio interdum, quis efficitur mauris ornare. </p>
+          <em>Sample C# code:</em>
+          <pre><code>
+// C# program to illustrate how to 
+// create a stack 
+using System; 
+using System.Collections; 
+  
+class GFG { 
+  
+    // Main Method 
+    static public void Main() 
+    { 
+  
+        // Create a stack 
+        // Using Stack class 
+        Stack my_stack = new Stack(); 
+  
+        // Adding elements in the Stack 
+        // Using Push method 
+        my_stack.Push("Geeks"); 
+        my_stack.Push("geeksforgeeks"); 
+        my_stack.Push('G'); 
+        my_stack.Push(null); 
+        my_stack.Push(1234); 
+        my_stack.Push(490.98); 
+  
+        // Accessing the elements 
+        // of my_stack Stack 
+        // Using foreach loop 
+        foreach(var elem in my_stack) 
+        { 
+            Console.WriteLine(elem); 
+        } 
+    } 
+} 
+</code></pre><br>
+          <em>List C#:</em>
+          <ol>
+            <li>eget pretium arcu. </li>
+            <li>eget pretium arcu. </li>
+            <li>eget pretium arcu. </li>
+          </ol>
+          
+        </section>
+        
+        <section id=Python class="main-section">
+        
+            <header>
+              Python
+            </header>
+          <p>Vivamus fermentum lacus quis ante aliquet, et hendrerit dui mattis. Nullam blandit risus enim, quis hendrerit nulla ultricies sed. Praesent mattis maximus nisl vel mattis. Phasellus urna nibh, molestie et suscipit nec, iaculis eu metus. Donec hendrerit pellentesque justo, id interdum nunc suscipit nec. Curabitur id pulvinar est. Proin nec mattis lectus, et ornare risus. Morbi porttitor volutpat aliquam. Nulla facilisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae </p>
+          <p>Vivamus fermentum lacus quis ante aliquet, et hendrerit dui mattis. Nullam blandit risus enim, quis hendrerit nulla ultricies sed. Praesent mattis maximus nisl vel mattis. Phasellus urna nibh, molestie et suscipit nec, iaculis eu metus. Donec hendrerit pellentesque justo, id interdum nunc suscipit nec. Curabitur id pulvinar est. Proin nec mattis lectus, et ornare risus. Morbi porttitor volutpat aliquam. Nulla facilisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae </p>
+          <em>Sample Python code:</em>
+          <pre><code>
+    # Program to add two matrices using nested loop
+    X = [[12,7,3],
+        [4 ,5,6],
+        [7 ,8,9]]
+    Y = [[5,8,1],
+        [6,7,3],
+        [4,5,9]]
+    result = [[0,0,0],
+             [0,0,0],
+             [0,0,0]]
+    # iterate through rows
+    for i in range(len(X)):
+       # iterate through columns
+       for j in range(len(X[0])):
+           result[i][j] = X[i][j] + Y[i][j]
+    for r in result:
+       print(r)
+</code></pre><br>
+          <em>List Python:</em>
+          <ol>
+            <li>eget pretium arcu. </li>
+            <li>eget pretium arcu. </li>
+            <li>eget pretium arcu. </li>
+          </ol>
+        </section>
+        
+        <section id=SQL class="main-section">
+          
+            <header>
+              SQL
+            </header>
+          
+            <p>Nulla nec nisi pharetra ligula luctus congue sit amet ac leo. Quisque quis blandit velit. Curabitur blandit orci in dignissim lobortis. Curabitur faucibus mattis sem a vestibulum. Integer in nibh eu dui ornare venenatis. Sed leo nisi, pharetra nec venenatis nec, elementum non lacus. Pellentesque ante nunc, elementum eget nulla vel, hendrerit fermentum lectus. Duis bibendum accumsan tincidunt. Nulla eget turpis sit amet dolor pretium gravida et in risus. Quisque nec consequat orci. Phasellus tincidunt porttitor quam, sed volutpat libero blandit non. Ut at turpis arcu. Curabitur tincidunt eros quis gravida faucibus. Fusce laoreet tortor sit amet metus efficitur volutpat. Maecenas a placerat dolor, eget pretium arcu. </p>
+          
+            <p>Nulla nec nisi pharetra ligula luctus congue sit amet ac leo. Quisque quis blandit velit. Curabitur blandit orci in dignissim lobortis. Curabitur faucibus mattis sem a vestibulum. Integer in nibh eu dui ornare venenatis. Sed leo nisi, pharetra nec venenatis nec, elementum non lacus. Pellentesque ante nunc, elementum eget nulla vel, hendrerit fermentum lectus. Duis bibendum accumsan tincidunt. Nulla eget turpis sit amet dolor pretium gravida et in risus. Quisque nec consequat orci. Phasellus tincidunt porttitor quam, sed volutpat libero blandit non. Ut at turpis arcu. Curabitur tincidunt eros quis gravida faucibus. Fusce laoreet tortor sit amet metus efficitur volutpat. Maecenas a placerat dolor, eget pretium arcu. </p>
+          <em>Sample SQL code:</em>
+         <pre> <code>
+    select studentID, FullName, sat_score
+    from student
+    where (studentID between 1 and 5 -- inclusive
+    or studentID = 8
+        or FullName like '%Maximo%')
+    and sat_score NOT in (1000, 1400)
+  order by FullName DESC;
+          </code></pre><br>
+          <em>List SQL:</em>
+          <ol>
+            <li>eget pretium arcu. </li>
+            <li>eget pretium arcu. </li>
+            <li>eget pretium arcu. </li>
+          </ol>          
+        </section>               
+      </main>    
+  </body>
+</html>

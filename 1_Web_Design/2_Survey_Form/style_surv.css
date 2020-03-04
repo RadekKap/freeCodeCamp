@@ -1,0 +1,68 @@
+body{
+  background: #ED2939;
+}
+main{
+  max-width: 1300px;
+  min-width:900px;
+  margin: 0 auto;
+  padding: 5%;
+}
+#div-form{ 
+  background:white;
+  border-radius: 40px;
+  width: 100%;
+  display: table;
+  
+}
+#pic{
+  background: url("https://img.chceauto.pl/mercedes-benz/cla/mercedes-benz-cla-sedan-4144-43577_v1.jpg") top center/cover no-repeat;
+width: 100%;
+display: table-cell;
+ border-radius: 40px 0px 0px 40px;
+}
+#content{
+  display: table-cell;
+  padding: 10px 50px;
+}
+
+#title{
+  margin-bottom: 10px;
+ 
+}
+#description{
+  margin-bottom: 10px;
+}
+#survey-form{
+  margin: auto;
+  padding-top:2%;  
+}
+input{
+  border: none;
+  padding: 9px 0;
+  color:#666;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  padding: 9px 0px;
+  border-bottom: 2px solid gray;
+}
+input:focus{
+  border-width: 3px;
+  border-image: linear-gradient(to right, red,orange);
+  border-image-slice: 1;
+}
+input[type=number] {
+  -moz-appearance:textfield;
+}
+#name{
+  width: 100%;
+}
+label{
+font-size: 16px;
+font-weight: 50; 
+}
+
+#row-2col{
+ display: flex;
+ align-items: center;
+}

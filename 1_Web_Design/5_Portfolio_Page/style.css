@@ -1,0 +1,89 @@
+
+#welcome-section{
+  height: 100vh;
+  margin: 80px;
+  overflow:auto;
+}
+#projects{ 
+   margin: auto 80px;
+
+}
+img{
+ float: left;
+ padding: 5px 50px;
+  height:50vh;
+  
+}
+ul {
+  list-style-type: none;
+  margin-right:10px;
+  
+}
+#navbar li {
+  float:left;
+}
+#navbar{
+   display: flex;
+  align-items:center;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  justify-content: flex-end;
+  flex-direction: row;
+}
+#navbar a{
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: #f1f1f1;
+  
+}
+#navbar a:hover {
+  background-color: #555;
+  color: white;
+}
+p{
+  font-size:1.2vw;
+  font-family: "Times New Roman", Times, serif;
+  margin-right: 90px;
+  
+}
+a{
+  text-decoration: none;
+}
+ol {
+  list-style-type: none;
+}
+
+ol li {
+  position: relative;
+  font: bold italic 20px/1.5 Helvetica, Verdana, sans-serif;
+  margin-bottom: 20px;
+  
+}
+ol li a{
+   background: -webkit-linear-gradient(180deg,#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+ol li a:hover{
+   background: -webkit-linear-gradient(180deg,#999, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media(min-width:1000px){
+  p{ 
+    font-size:1.6vw;
+    font-family: 'Inconsolata', monospace;
+    margin-right: 90px;
+    margin-bottom:200px;
+  }
+  #welcome-section{
+  height: 100vh;
+  margin: 80px;
+  overflow:auto;
+}
+ 
+}

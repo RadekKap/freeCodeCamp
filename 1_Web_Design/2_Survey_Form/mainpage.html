@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style_surv.css">
+    <meta charset="utf-8">
+  </head>
+
+  <body>
+    
+    <main>
+      <div id="div-form">
+        <div id="pic"></div>
+        <div id="content">
+          <h1 id="title">Registration info</h1>
+          <p id="description">Fill form with your information to get              newsletter to our products😉</p>
+          <form method="POST" id="survey-form">
+          <label id="name-label" for="name">Name:</label>
+          <input id="name" type="text" required placeholder="Name"><br>
+         <div id="row-2col">
+          <label id="email-label" for="email">Email:</label>
+          <input id="email" type="email" required         placeholder="Email">
+         <label id="number-label" for="number">Age:</label>
+          <input id="number" type="number" min="16" max="120" placeholder="Age">
+         </div><br>
+          <label for="dropdown">Which car are you intrested in?</label><br>
+           <select id="dropdown">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+            </select> 
+          <p>Please select your preferred body type of a car:</p>
+          <input type="radio" id="coupe"
+           name="btype" value="coupe">
+          <label for="coupe">Coupe</label>
+
+          <input type="radio" id="sedan"
+           name="btype" value="sedan">
+          <label for="sedan">Sedan</label>
+
+          <input type="radio" id="limo"
+           name="btype" value="limo">
+          <label for="limo">Limo</label>
+          
+           <input type="radio" id="all"
+           name="btype" value="all">
+          <label for="all">All</label>
+          <br>
+          <p>Something about you:</p>
+          <fieldset>
+            <legend>Choose your interests</legend>
+
+            <input type="checkbox"  name="interest" value="coding">
+            <label for="coding">Coding</label>
+
+            <br>
+            <input type="checkbox" name="interest" value="music">
+            <label for="music">Music</label>
+ 
+          </fieldset><br>
+          <label for="story">Tell us something about yourself:</label><br>
+
+          <textarea id="story" name="story" rows="5" cols="33" placeholder="If you want of course"></textarea>
+          <br>
+          <button id="submit" type="submit">Submit</button>
+        </form>
+        </div>
+      
+      </div>
+
+    </main>
+ 
+  </body>
+
+</html>
+
