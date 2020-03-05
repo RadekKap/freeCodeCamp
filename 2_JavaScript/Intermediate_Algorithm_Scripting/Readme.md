@@ -279,7 +279,7 @@ smallestCommons([2, 10]) should return 2520.
 smallestCommons([1, 13]) should return 360360.  
 smallestCommons([23, 18]) should return 6056820.  
 
-14.Drop it
+15.Drop it
 -------------
 Link do [freeCodeCamp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/drop-it) z zadaniem.
 
@@ -296,7 +296,7 @@ dropElements([1, 2, 3, 4], function(n) {return n > 5;}) should return [].
 dropElements([1, 2, 3, 7, 4], function(n) {return n > 3;}) should return [7, 4].  
 dropElements([1, 2, 3, 9, 2], function(n) {return n > 2;}) should return [3, 9, 2].  
 
-15.Steamroller
+16.Steamroller
 -----------------
 Link do [freeCodeCamp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/steamroller) z zadaniem.
 
@@ -310,7 +310,7 @@ steamrollArray([1, [], [3, [[4]]]]) should return [1, 3, 4].
 steamrollArray([1, {}, [3, [[4]]]]) should return [1, {}, 3, 4].  
 Your solution should not use the Array.prototype.flat() or Array.prototype.flatMap() methods.  
 
-16.Binary Agents
+17.Binary Agents
 -------------------
 Link do [freeCodeCamp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/binary-agents) z zadaniem.
 
@@ -323,7 +323,7 @@ The binary string will be space separated.
 binaryAgent("01000001 01110010 01100101 01101110 00100111 01110100 00100000 01100010 01101111 01101110 01100110 01101001 01110010 01100101 01110011 00100000 01100110 01110101 01101110 00100001 00111111") should return "Aren't bonfires fun!?"  
 binaryAgent("01001001 00100000 01101100 01101111 01110110 01100101 00100000 01000110 01110010 01100101 01100101 01000011 01101111 01100100 01100101 01000011 01100001 01101101 01110000 00100001") should return "I love FreeCodeCamp!"  
 
-17.Everything Be True
+18.Everything Be True
 ------------------------
 Link do [freeCodeCamp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/everything-be-true) z zadaniem.
 
@@ -347,7 +347,7 @@ truthCheck([{"single": ""}, {"single": "double"}], "single") should return false
 truthCheck([{"single": "double"}, {"single": undefined}], "single") should return false  
 truthCheck([{"single": "double"}, {"single": NaN}], "single") should return false  
 
-18.Arguments Optional
+19.Arguments Optional
 ------------------------
 Link do [freeCodeCamp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/arguments-optional) z zadaniem.
 
@@ -371,7 +371,7 @@ addTogether("http://bit.ly/IqT6zt") should return undefined.
 addTogether(2, "3") should return undefined.  
 addTogether(2)([3]) should return undefined.  
   
-19.Make a Person
+20.Make a Person
 -------------
 Link do [freeCodeCamp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/make-a-person) z zadaniem.
 
@@ -401,7 +401,7 @@ bob.getFullName() should return "Haskell Curry" after bob.setFullName("Haskell C
 bob.getFirstName() should return "Haskell" after bob.setFullName("Haskell Curry").  
 bob.getLastName() should return "Curry" after bob.setFullName("Haskell Curry").  
 
-20.Map the Debris
+21.Map the Debris
 --------------
 Link do [freeCodeCamp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/map-the-debris) z zadaniem.
 
