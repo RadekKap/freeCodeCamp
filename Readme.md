@@ -34,5 +34,5 @@ Oto one:
 	* Drum Machine
 	* JavaScript Calculactor
 	* JavaScript Calculactor(React+Redux)
-4. Data Visualization
-	*Bar Chart Project
+4. Data Visualization  
+	* Bar Chart Project
