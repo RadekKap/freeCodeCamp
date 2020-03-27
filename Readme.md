@@ -9,6 +9,7 @@ Planuje dalej poszerzać swoją wiedzę z tej strony. Wszystkie poczynione przez
 Po realizacji wyżej wymienionego projektu rozpocznę naukę od następnej sekcji tzn. "Data Visualization Certification".
 Myślę że wszystkie poprzedzające zagadnienia przyswoiłem zadowalająco, chociaż wiadome jest oczywiście to że praktyka czyni mistrza ;) 
 
+27.03.20 - Ukończenie pierwszego projektu z sekcji Data Visualization(opanowanie działu i zrealizowanie pierwszego projektu zajęło ok. 2 dni roboczych. Ciężko oszacować dokładnie czas, ale chciałem tylko zwrócić uwagę, że wcześniej zajmowałem się innymi rzeczami niezwiązanymi z freecodecamp. W związku z tym przerwa od ostatniego uploadu wyniosła prawie miesiąc.)
 
 Zrealizowane projekty
 -------------------------
@@ -33,3 +34,5 @@ Oto one:
 	* Drum Machine
 	* JavaScript Calculactor
 	* JavaScript Calculactor(React+Redux)
+4. Data Visualization
+	*Bar Chart Project
