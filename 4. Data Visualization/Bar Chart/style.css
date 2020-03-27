@@ -1,0 +1,37 @@
+body{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content:center;
+}
+.bar{
+  fill:green;
+}
+.bar:hover{
+  fill:red;
+}
+svg{
+  margin:20px;
+}
+#x-axis{ 
+  font: 14px sans-serif; }
+#y-axis{ 
+  font: 10px sans-serif; }
+
+#tooltip {	
+    position: absolute;			
+    text-align: center;			
+    width: 80px;					
+    height: 28px;					
+    padding: 2px;				
+    font: 12px sans-serif;		
+    background: lightsteelblue;	
+    border: 2px;		
+    border-radius: 8px;			
+    pointer-events: none;			
+}
+#title{
+  font-size:40px;
+  font-weight:bold;  
+  font-style: italic;
+}
